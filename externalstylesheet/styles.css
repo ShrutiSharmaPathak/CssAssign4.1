@@ -1,0 +1,16 @@
+/*
+selector nesting is applied in the following code.This removes the need for classes or IDs on 
+<ul> and <li>.Following code means-
+Background color of 3rd child (<li>) of <ul> inside  class "third" is set to blue.
+*/
+
+div.third ul li:nth-child(3) 
+{
+    background:blue;
+}
+
+/*
+ nth-child pseudo-class allows to target one or more specific children of a given parent element.
+ In above code  pseudo class is targeting the 3rd <li> of the parent <ul>.
+ The style rules in the example above set the background color blue to only 3rd <li> element, without adding 
+ any IDs or classes to the <li> elements. */
